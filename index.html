@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link href="./dist/index.css" rel="stylesheet" />
+    <link href="./custome.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="query-builder" style="padding: 10px;" data-fields='[{"name":"firstName","label":"First Name","placeholder":"Enter first name","value":"firstName"},{"name":"lastName","label":"Last Name","placeholder":"Enter last name","defaultOperator":"beginsWith","value":"lastName"},{"name":"age","label":"Age","inputType":"number","value":"age"},{"name":"gender","label":"Gender","operators":[{"name":"=","value":"=","label":"="}],"valueEditorType":"select","values":[{"name":"M","label":"Male"},{"name":"F","label":"Female"},{"name":"O","label":"Other"}],"value":"gender"},{"name":"height","label":"Height","value":"height"},{"name":"job","label":"Job","value":"job"},{"name":"description","label":"Description","valueEditorType":"textarea","value":"description"},{"name":"birthdate","label":"Birth Date","inputType":"date","value":"birthdate"},{"name":"datetime","label":"Show Time","inputType":"datetime-local","value":"datetime"},{"name":"alarm","label":"Daily Alarm","inputType":"time","value":"alarm"},{"name":"FILECOUNT","label":"FILECOUNT","inputType":"number","subValues":[{"name":"COFC","label":"COFC_label"},{"name":"FORMONE","label":"FORM ONE"},{"name":"FORMtwo","label":"FORM two"}],"value":"FILECOUNT"},{"name":"DoCCount","label":"DoCCount","inputType":"number","subValues":[{"name":"officeDoc","label":"office doc"},{"name":"personalDoc","label":"personal doc"}],"value":"DoCCount"},{"name":"DoCCount1","label":"DoCCount1","inputType":"number","subValues":[{"name":"officeDoc1","label":"office doc1"},{"name":"personalDoc2","label":"personal doc1"}],"value":"DoCCount1"}]'></div>
+    <script src="./dist/index.js"></script>
+
+</body>
+
+</html>

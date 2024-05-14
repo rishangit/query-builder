@@ -1,0 +1,7 @@
+.queryBuilder .rule-remove{
+    background-color: red;
+}
+
+.queryBuilder .rule-remove:hover{
+    background-color: orange;
+}
